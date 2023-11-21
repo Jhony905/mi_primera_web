@@ -1,0 +1,28 @@
+body {
+    background-color: rgba(110, 108, 108, 0.699);
+}
+
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+    pequeñas */
+    body {
+    font-size: 15px;
+    }
+    .container {
+    width: 95%;
+    margin: 0 auto;
+    }
+    }
+    /* Estilos para pantallas más grandes (a partir de 769px) */
+    @media (min-width: 769px) {
+    /* Aquí puedes escribir los estilos que se aplicarán en pantallas más
+    grandes */
+    body {
+    font-size: 17px;
+    }
+    .container {
+    width: 85%;
+    margin: 0 auto;
+    }
+    }

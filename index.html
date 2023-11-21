@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0" />
+        <title>Mi Primera Web</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="https://kit.fontawesome.com/b37bda5282.js" crossorigin="anonymous"></script>
+        <!--Links de Fuentes de Letras-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@300&display=swap" rel="stylesheet">
+        
+    </head>
+    
+    <body>
+        <div class="container">
+            <header>
+                <a href="index.html"><i class="fa-solid fa-robot fa-beat-fade"></i></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#trabajos">Trabajos</a></li>
+                        <li><a href="#contactos">Contactos</a></li>
+                        <li><a href="#acerca">Acerca de mi</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main id="seccion-principal">
+                <section class="seccion-1">
+                    <div class="acerca-de">
+                        <h2 class="Titulo">Acerca de mi</h2>
+                        <h3>¡Bienvenido a mi sitio web!</h3>
+                        <p class="parrafo2">Me llamo Jhonnatan Barros, vivo en Barranquilla-Colombia. Soy Ingeniero Mecatrónico y me gusta todo 
+                            lo relacionado con la tecnologia. Estoy aprendiendo a programar para desarrollos y mejores oportunidades
+                        </p>
+                    </div>
+                    <div class="acerca-imagen">
+                        <img src="img/img-perfil1.png" alt="imagen perfil">
+                    </div>
+                </section>
+                <section class="seccion-2">
+                    <img src="img/img-robot.jpg" alt="Imagen contenido">
+                </section>
+                <section class="seccion-3">
+                    <section class="form-header">
+                        <h1>Contacto</h1>
+                        <p><em>¡Esperamos tu consulta!</em></p>
+
+                        <form action="" method="get" class="formulario" id="form">
+                            <div class="form-row">
+                                <label for="nombre">Nombre</label>
+                                <input id="nombre" name="nombre" type="text" />
+                            </div>
+                            <div class="form-row">
+                                <label for="email">Email</label>
+                                <input 
+                                    id="email" 
+                                    name="email" 
+                                    type="email" 
+                                    placeholder="pepe@gmail.com" 
+                                    required
+                                />
+                            </div>
+                            <div class="form-row">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje"></textarea>
+                            </div>
+                            <div class="form-row">
+                                <button>Enviar</button>
+                            </div>
+                            <p class="alertas" id="alertas"></p>
+                        </form>
+            
+                        <script src="script.js"></script>
+                    </section>
+                </section>
+            </main>
+            <footer>
+                <div id="footer">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Facebook</a></li>
+                            <li><a href="#servicios">Linkdin</a></li>
+                            <li><a href="#trabajos">Whatsapp</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>      
